@@ -1,3 +1,2 @@
-progresso = 0;
-progresso_maximo = 100;
-computador_pai = other;
+progresso = 0;  // Inicialização do progresso
+velocidade = 0.001;  // Velocidade do progresso (ajuste conforme necessário)
