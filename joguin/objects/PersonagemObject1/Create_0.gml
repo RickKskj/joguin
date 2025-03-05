@@ -22,3 +22,4 @@ frame_counter = 0;  // Inicializa o contador de quadros
 can_attack = true;  // Inicializa a variável de controle do ataque
 
 dano = 1;
+

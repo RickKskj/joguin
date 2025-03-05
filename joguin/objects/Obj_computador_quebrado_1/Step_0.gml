@@ -4,7 +4,7 @@ if (distance_to_object(PersonagemObject1) < 15 && !consertado && !animando) {
         // Iniciar animação de reparo
         animando = true;
         // Criar o objeto de barra de progresso
-        instance_create_layer(x, y - 20, "Instances_1", Obj_barra_progresso);
+        instance_create_layer(x, y - 20, "Instances_1", Obj_barra_progresso_1);
     }
 }
 	
