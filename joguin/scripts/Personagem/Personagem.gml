@@ -136,53 +136,33 @@ if (distance_to_object(Obj_computador_quebrado) < 15) {
 
 
 function src_persona_ataque() {
- 
-    // Ajusta a posição da hitbox com base na direção
     var hitbox_offset_x = 0;
     var hitbox_offset_y = 0;
 
     switch (direcao) {
-        case 0:  // Direita
-            hitbox_offset_x = 35;  // Deslocamento para a direita
-            break;
-        case 1:  // Cima
-            hitbox_offset_y = -35;  // Deslocamento para cima
-            break;
-        case 2:  // Esquerda
-            hitbox_offset_x = -35;  // Deslocamento para a esquerda
-            break;
-        case 3:  // Baixo
-            hitbox_offset_y = 35;  // Deslocamento para baixo
-            break;
+        case 0: hitbox_offset_x = 35; break; // Direita
+        case 1: hitbox_offset_y = -35; break; // Cima
+        case 2: hitbox_offset_x = -35; break; // Esquerda
+        case 3: hitbox_offset_y = 35; break; // Baixo
     }
 
-    // Verifica se a hitbox não existe e cria a instância com o deslocamento adequado
     if (!instance_exists(Object_personagem_hitbox)) {
-        instance_create_layer(x + hitbox_offset_x, y + hitbox_offset_y, "Instances", Object_personagem_hitbox);
-        show_debug_message("Hitbox criada em direção " + string(direcao));
+        var hitbox = instance_create_layer(x + hitbox_offset_x, y + hitbox_offset_y, "Instances", Object_personagem_hitbox);
+        hitbox.alarm[0] = room_speed; // A hitbox será destruída em 1 segundo
     }
 
-    // Define o sprite da hitbox para o sprite de ataque
     sprite_index = Hitbox;
-
-    // Verifica se a animação chegou ao último quadro
     if (image_index >= sprite_get_number(sprite_index) - 1) {
-        // Destrói a hitbox se ela existir
         if (instance_exists(Object_personagem_hitbox)) {
             instance_destroy(Object_personagem_hitbox);
-            show_debug_message("Hitbox destruída");
         }
 
-        // Atualiza o estado para o estado de andar
         estado = src_persona_andando();
-
-        // Reinicia o image_index para a animação de andar (voltar ao início)
         image_index = 0;
-
-        // Permite um novo ataque após a animação ter terminado
         can_attack = true;
     }
 }
+
 
 
 

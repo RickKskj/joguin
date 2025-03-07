@@ -18,8 +18,8 @@ estado = src_persona_andando;
 
 
 // Create Event do obj_personagem
-frame_counter = 0;  // Inicializa o contador de quadros
-can_attack = true;  // Inicializa a variável de controle do ataque
-
+frame_counter = 0;
+can_attack = true;
 dano = 1;
+
 
