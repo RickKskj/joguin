@@ -7,6 +7,6 @@ if (progresso < 1) {
     Obj_computador_quebrado_1.sprite_index = computador_consertado;
     Obj_computador_quebrado_1.animando = false;  // Finalizar a animação
 	Obj_computador_quebrado_1.consertado = true; // Marcar como consertada
-	room_goto(Room4);
+	room_goto(room_labirinto);
 }
 
