@@ -6,4 +6,5 @@ vida_max -= 1;
 if (vida_max <= 0) {
     // Quando a vida do boss chega a 0, destrua o boss
     instance_destroy();  // Destroi o objeto boss
+	room_goto(room_avisos);
 }
