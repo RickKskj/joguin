@@ -40,6 +40,7 @@
     {"name":"inst_23F401AE","path":"rooms/room_labirinto/room_labirinto.yy",},
     {"name":"inst_F96FB79","path":"rooms/room_labirinto/room_labirinto.yy",},
     {"name":"inst_24923DC0","path":"rooms/room_labirinto/room_labirinto.yy",},
+    {"name":"inst_1B6C386E","path":"rooms/room_labirinto/room_labirinto.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -82,6 +83,7 @@
         {"$GMRInstance":"v1","%Name":"inst_23F401AE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_23F401AE","objectId":{"name":"Object_virus","path":"objects/Object_virus/Object_virus.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":80.0,},
         {"$GMRInstance":"v1","%Name":"inst_F96FB79","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_F96FB79","objectId":{"name":"Obj_ciberpirata","path":"objects/Obj_ciberpirata/Obj_ciberpirata.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":10.0,"y":192.0,},
         {"$GMRInstance":"v1","%Name":"inst_24923DC0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_24923DC0","objectId":{"name":"Obj_mercador","path":"objects/Obj_mercador/Obj_mercador.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":25.0,},
+        {"$GMRInstance":"v1","%Name":"inst_1B6C386E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1B6C386E","objectId":{"name":"ParedeObject2","path":"objects/ParedeObject2/ParedeObject2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.1,"x":0.0,"y":25.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMREffectLayer":"","%Name":"Effect_1","depth":400,"effectEnabled":true,"effectType":"_filter_mask","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Effect_1","properties":[
         {"name":"g_MaskStart","type":0,"value":"0",},
