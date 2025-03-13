@@ -7,5 +7,5 @@ if (progresso < 1) {
     Obj_fim.sprite_index = computador_consertado;
     Obj_fim.animando = false;  // Finalizar a animação
 	Obj_fim.consertado = true; // Marcar como consertada
-	room_goto(menu);
+	room_goto(room_introducao);
 }

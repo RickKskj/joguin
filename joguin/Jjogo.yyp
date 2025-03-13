@@ -77,7 +77,6 @@
     {"id":{"name":"Object_virus","path":"objects/Object_virus/Object_virus.yy",},},
     {"id":{"name":"ParedeObject2","path":"objects/ParedeObject2/ParedeObject2.yy",},},
     {"id":{"name":"PersonagemObject1","path":"objects/PersonagemObject1/PersonagemObject1.yy",},},
-    {"id":{"name":"menu","path":"rooms/menu/menu.yy",},},
     {"id":{"name":"room_avisos","path":"rooms/room_avisos/room_avisos.yy",},},
     {"id":{"name":"room_bossfight","path":"rooms/room_bossfight/room_bossfight.yy",},},
     {"id":{"name":"room_casa","path":"rooms/room_casa/room_casa.yy",},},
@@ -146,7 +145,6 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"menu","path":"rooms/menu/menu.yy",},},
     {"roomId":{"name":"room_introducao","path":"rooms/room_introducao/room_introducao.yy",},},
     {"roomId":{"name":"room_diario","path":"rooms/room_diario/room_diario.yy",},},
     {"roomId":{"name":"room_casa","path":"rooms/room_casa/room_casa.yy",},},

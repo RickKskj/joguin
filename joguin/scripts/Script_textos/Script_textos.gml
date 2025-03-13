@@ -1,16 +1,16 @@
 function scr_textos(){
 switch npc_nome{
      case "mercador":
-	 texto[0] = "Olá caro jogador! sou apenas um mercador e tô aqui para te ajudar...";
-	 texto[1] = "Sabia que ao clicar a tecla ESPAÇO você consegue se curar?";
-	 texto[2] = "por que você não testa?";
+	 texto[0] = "Mercador: Olá caro jogador! sou apenas um mercador e tô aqui para te ajudar...";
+	 texto[1] = "Mercador: Sabia que ao clicar a tecla ESPAÇO você consegue se curar?";
+	 texto[2] = "Mercador: por que você não testa?";
 	 break;
 	 
 	 case "cliente":
-	 texto[0] = "Que bom que você veio, estava te esperando.";
-	 texto[1] = "Preciso que arrume meu computador, o último técnico que eu contratei, pegou meu dinheiro e desapareceu...";
-	 texto[2] = "O estranho é que eu nem vi ele saindo daqui...";
-	 texto[3] = "Por segurança, eu vou te pagar só no final do serviço, tudo bem?";
+	 texto[0] = "Cliente: Que bom que você veio, estava te esperando.";
+	 texto[1] = "Cliente: Preciso que arrume meu computador, o último técnico que eu contratei, pegou meu dinheiro e desapareceu...";
+	 texto[2] = "Cliente: O estranho é que eu nem vi ele saindo daqui...";
+	 texto[3] = "Cliente: Por segurança, eu vou te pagar só no final do serviço, tudo bem?";
 	 break;
 	 
 	 case "carta":

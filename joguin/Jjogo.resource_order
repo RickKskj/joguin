@@ -57,7 +57,6 @@
     {"name":"Object_personagem_hitbox","order":9,"path":"objects/Object_personagem_hitbox/Object_personagem_hitbox.yy",},
     {"name":"Object_virus","order":6,"path":"objects/Object_virus/Object_virus.yy",},
     {"name":"ParedeObject2","order":7,"path":"objects/ParedeObject2/ParedeObject2.yy",},
-    {"name":"menu","order":10,"path":"rooms/menu/menu.yy",},
     {"name":"room_avisos","order":13,"path":"rooms/room_avisos/room_avisos.yy",},
     {"name":"room_bossfight","order":7,"path":"rooms/room_bossfight/room_bossfight.yy",},
     {"name":"room_diario","order":11,"path":"rooms/room_diario/room_diario.yy",},
